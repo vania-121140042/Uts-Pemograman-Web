@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* styling halamanan homepage*/
+header{
+    background-color: #435334;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+img{
+    height: 90px;
+    width: auto;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    width: 150px;
+    background-color: #CEDEBD;
+    padding: 30px 20px;
+    padding-top: 10px;
+}
+
+.sidebar li a{
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar li a:hover{
+    color: black;
+    transition-duration: 1s;
+}
+
+.content {
+    background-color: #FAF1E4;
+    flex: 1;
+    padding: 30px;
+}
+
+#satu{
+    display: flex;
+    margin: 10px auto;
+    width: 100%;
+}
+
+#satu p, #dua p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#satu img{
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    margin-right: 15px;
+}
+
+#dua ul li{
+    list-style:disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    line-height: 1.0;
+}
+
+footer {
+    background-color: #435334;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+/* styling halamanan homepage*/
+
+/* styling halamanan formulir*/
+form input {
+    margin-bottom: 10px;
+    border: 5%;
+    width: 20px;
+}
+
+.tiga{
+    width: 250px;
+    height: 30px;
+}
+
+.tombol{
+    margin-top: 0px;
+    font-size: 15px;
+    background: #9EB384;
+    color: white;
+    border: white 1px solid;
+    border-radius: 30px;
+    padding: 5px 10px;
+}
+
+.tombol:hover{
+    background-color: black;
+}
+/* styling halamanan formulir*/
+
+/* styling halamanan table*/
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td{
+    border: 1px solid black; 
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #9EB384;
+}
